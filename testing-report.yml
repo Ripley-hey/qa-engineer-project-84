@@ -1,1 +1,16 @@
+---
+- summary: |
+    Поиск товаров
+  status: fail
 
+- summary: |
+    Просмотр корзины и добавление товара
+  status: pass 
+
+- summary: |
+    Просмотр товара Red Lipstick и подробной информации о нем
+  status: pass
+
+- summary: |
+    Фильтр товаров
+  status: pass  
