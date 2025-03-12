@@ -1,16 +1,16 @@
 ---
 - summary: |
   Поиск товаров
-  requirement: |
+requirement: |
   При вводе ключевого слова или категории пользователь находит искомый товар
-  prerequisites: Открыта страница магазина
-  test-data: |
+prerequisites: Открыта страница магазина
+test-data: |
   Ключевое слово: lipstick
   Категория: beauty
-  steps: |
+steps: |
     - Вводим в поиск ключевое слово
     - Выбираем категорию из списка "Категория"
-  expected-result: | 
+expected-result: | 
   Страница выводит искомый товар
 
 - summary: |
