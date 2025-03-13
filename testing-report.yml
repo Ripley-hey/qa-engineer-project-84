@@ -13,4 +13,16 @@
 
 - summary: |
     Фильтр товаров по бренду
-  status: pass  
+  status: pass
+
+- summary: |
+    Сортировка товаров по категории
+  status: pass
+
+- summary: |
+    Проверка фильтра In stock
+  status: fail
+
+- summary: |
+    Проверка оформления заказа
+  status: fail
