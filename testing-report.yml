@@ -1,7 +1,7 @@
 ---
 - summary: |
     Поиск товаров по ключевому слову
-  status: fail
+  status: pass
 
 - summary: |
     Добавление товара в корзину
