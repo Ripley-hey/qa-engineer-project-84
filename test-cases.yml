@@ -4,7 +4,7 @@
   requirement: |
     При вводе ключевого слова пользователь находит искомый товар.
   prerequisites: |
-  no-data
+  no data
   steps: |
     - Ввести любое название товара, например - iPhone
   expected-result: | 
@@ -15,7 +15,7 @@
   requirement: |
     Пользователь может добавить товар в корзину и посмотреть её содержимое.
   prerequisites: |
-  no-data
+  no data
   steps: |
     - Выбрать любой товар
     - Добавить товар в корзину
@@ -28,7 +28,7 @@
   requirement: |
     Пользователь может просмотреть товар и подробную информацию о нём
   prerequisites: |
-  no-data
+  no data
   steps: |
     - Выбрать любой товар
     - Открыть выбранный товар
@@ -40,7 +40,7 @@
   requirement: |
     Пользователь с помощью фильтров может сортировать товары по бренду.
   prerequisites: |
-  no-data
+  no data
   steps: |
     - Выбрать любой бренд
   expected-result: | 
@@ -51,7 +51,7 @@
   requirement: |
     Пользователь с помощью фильтров может сортировать товары по категории.
   prerequisites: |
-  no-data
+  no data
   steps: |
     - Выбрать любую категорию, например - beauty
   expected-result: | 
@@ -62,7 +62,7 @@
   requirement: |
     Пользователь должен иметь возможность просматривать ВСЕ товары каталога.
   prerequisites: | 
-  no-data
+  no data
   steps: |
     - Нажать на чек-бокс In stock
   expected-result: | 
@@ -72,7 +72,8 @@
     Проверка оформления заказа
   requirement: |
     Пользователь должен иметь возможность оформить заказ
-  prerequisites: 
+  prerequisites: |
+  no data
   steps: |
     - Добавить любой товар в корзину
     - Открыть корзину
