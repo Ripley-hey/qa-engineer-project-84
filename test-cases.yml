@@ -7,7 +7,7 @@
     no data
   test-data: |
     no data
-  steps: |
+  steps:
     - Ввести любое название товара, например - iPhone
   expected-result: | 
     Отображаются все товары согласно введенному запросу.
@@ -20,7 +20,7 @@
     no data
   test-data: |
     no data
-  steps: |
+  steps:
     - Выбрать любой товар
     - Добавить товар в корзину
     - Открыть корзину.
@@ -35,7 +35,7 @@
     no data
   test-data: |
     no data
-  steps: |
+  steps:
     - Выбрать любой товар
     - Открыть выбранный товар
   expected-result: | 
@@ -49,7 +49,7 @@
     no data
   test-data: |
     no data
-  steps: |
+  steps:
     - Выбрать любой бренд
   expected-result: | 
     Отображаются товары согласно выбранного бренда
@@ -62,7 +62,7 @@
     no data
   test-data: |
     no data
-  steps: |
+  steps:
     - Выбрать любую категорию, например - beauty
   expected-result: | 
     Отображаются все товары согласно выбранной категории
@@ -75,7 +75,7 @@
     no data
   test-data: | 
     no data
-  steps: |
+  steps:
     - Нажать на чек-бокс In stock
   expected-result: | 
     Отображаются все товары каталога (в наличии и не в наличии)
@@ -88,7 +88,7 @@
     no data
   test-data: |
     no data
-  steps: |
+  steps:
     - Добавить любой товар в корзину
     - Открыть корзину
     - Нажать Сheckout 
